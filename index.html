@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tariff Calculator</title>
+    
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="dist/jquery-tariff-calculator.css" type="text/css" />
+
+</head>
+<body>
+    
+    <!--Header-->
+    <div>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="col-xs-12">
+                    <a class="navbar-brand navbar-brand-custom col-xs-12" href="/">
+                        <i class="glyphicon glyphicon-grain col-xs-1"></i>
+                        <span class="col-xs-11 brand-text">Trampoline Tariff Calculator</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Main View-->
+    <div class="container">
+
+        <div class="col-md-12" id="tc-main-test">
+            
+        </div>
+    </div>
+    
+    <!--Footer-->
+    
+    <!--Scripts-->
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="dist/jquery-tariff-calculator.min.js"></script>
+    <script type="text/javascript">
+        initTariffCalculator("#tc-main-test");
+    </script>
+</body>
+</html>

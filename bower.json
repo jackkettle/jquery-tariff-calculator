@@ -1,0 +1,23 @@
+{
+  "name": "jquery-tariff-calculator",
+  "description": "Trampoline tariff calculator",
+  "version": "1.0.0",
+  "authors": [
+    "Jack Kettle <jack.kettle2@mail.dcu.ie>"
+  ],
+  "main": "dist/jquery-tariff-calculator.min.js",
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "jquery": "~2.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jackkettle/jquery-tariff-calculator.git"
+  }
+}
