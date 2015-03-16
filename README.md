@@ -35,7 +35,6 @@ $( document ).ready(function() {
     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="jquery-tariff-calculator.min.js"></script>
     <script>
-      initTariffCalculator("#tc-main");
       $( document ).ready(function() {
         initTariffCalculator("#tc-main");
       });
