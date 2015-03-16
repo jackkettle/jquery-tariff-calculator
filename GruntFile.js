@@ -5,6 +5,8 @@
 module.exports = function (grunt) {
     grunt.initConfig({
 
+        pkg: grunt.file.readJSON('package.json'),
+
         // concat all js files
         concat: {
           js: {
@@ -35,7 +37,12 @@ module.exports = function (grunt) {
                 options: {
                     compress: false,
                     mangle: false,
-                    beautify: true
+                    beautify: true,
+                    banner: '/*!\n' +
+                            ' * <%= pkg.name %> v<%= pkg.version %>\n' +
+                            ' * Copyright 2015-<%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
+                            ' * Licensed under <%= pkg.license.type %> (<%= pkg.license.url %>)\n' +
+                            ' */\n'
                 },
                 files: {
                     'dist/jquery-tariff-calculator.js': ['tmp/concat.js']
@@ -45,6 +52,11 @@ module.exports = function (grunt) {
                 options: {
                     compress: false,
                     mangle: false,
+                    banner: '/*!\n' +
+                            ' * <%= pkg.name %> v<%= pkg.version %>\n' +
+                            ' * Copyright 2015-<%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
+                            ' * Licensed under <%= pkg.license.type %> (<%= pkg.license.url %>)\n' +
+                            ' */\n'
                 },
                 files: {
                     'dist/jquery-tariff-calculator.min.js': ['tmp/concat.js']

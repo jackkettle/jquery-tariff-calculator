@@ -2,7 +2,11 @@
     "name"          : "jquery-tariff-calculator",
     "description"   : "Trampoline tariff calculator",
     "author"        : "Jack kettle <jack.kettle2@mail.dcu.ie>",
-    "version"       : "0.1.0",
+    "version"       : "1.0.0",
+    "license": {
+        "type": "MIT",
+        "url": "https://github.com/jackkettle/jquery-tariff-calculator/blob/master/LICENSE"
+    },
     "dependencies"  : {
         "grunt"                 : "0.x.x",
         "grunt-contrib-watch"   : "0.x.x",

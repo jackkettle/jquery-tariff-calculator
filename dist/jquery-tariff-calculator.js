@@ -1,3 +1,8 @@
+/*!
+ * jquery-tariff-calculator v1.0.0
+ * Copyright 2015-2015 Jack kettle <jack.kettle2@mail.dcu.ie>
+ * Licensed under MIT (https://github.com/jackkettle/jquery-tariff-calculator/blob/master/LICENSE)
+ */
 var SKILLS = [ {
     order: 0,
     level: "Elite",
