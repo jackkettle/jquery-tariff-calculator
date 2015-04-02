@@ -1,5 +1,8 @@
 jquery-tariff-calculator
 =========
+
+[![Bower version](https://badge.fury.io/bo/jquery-tariff-calculator.svg)](http://badge.fury.io/bo/jquery-tariff-calculator)
+
 A moduler trampoline tariff calculator using jquery.
 
 ## Dependencies
